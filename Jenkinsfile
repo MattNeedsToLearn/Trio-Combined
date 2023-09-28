@@ -15,10 +15,10 @@ pipeline {
                 docker push mattneedstolearn/trionginx'''
             }
         }
-        stage('Deploy') {
-            steps {
+        //stage('Deploy') {
+        //    steps {
                 //
-            }
-        }
+          //  }
+       // }
     }
 }
